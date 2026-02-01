@@ -1,7 +1,7 @@
 # ICT304_Grp-1_SmartStock-AI
 Intelligent inventory system for automating the warehouse system
 
-Dataset from Kaggle: https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
+Dataset: to be updated
 
 Google Colab: https://colab.research.google.com/drive/11FuVEWNiU9fPR_niyztRKnYVGcPy658c?usp=sharing
 
