@@ -1,0 +1,60 @@
+{
+  "products": [
+    "85123A",
+    "22423",
+    "85099B",
+    "84879",
+    "47566",
+    "20725",
+    "22720",
+    "20727",
+    "POST",
+    "23203"
+  ],
+  "date_range": {
+    "start": "2010-12-01",
+    "end": "2011-12-09",
+    "total_days": 374
+  },
+  "splits": {
+    "train_end": "2011-08-18",
+    "val_end": "2011-10-13",
+    "train_days": 261,
+    "val_days": 56,
+    "test_days": 57
+  },
+  "features": {
+    "temporal": [
+      "Year",
+      "Month",
+      "Day",
+      "DayOfWeek",
+      "WeekOfYear",
+      "Quarter",
+      "DayOfYear",
+      "IsWeekend",
+      "IsMonthStart",
+      "IsMonthEnd",
+      "Month_sin",
+      "Month_cos",
+      "DayOfWeek_sin",
+      "DayOfWeek_cos"
+    ],
+    "lag": [
+      "Demand_Lag_1",
+      "Demand_Lag_2",
+      "Demand_Lag_3",
+      "Demand_Lag_7",
+      "Demand_Lag_14",
+      "Demand_Lag_30"
+    ],
+    "rolling": [
+      "Demand_RollingMean_7",
+      "Demand_RollingStd_7",
+      "Demand_RollingMean_14",
+      "Demand_RollingStd_14",
+      "Demand_RollingMean_30",
+      "Demand_RollingStd_30"
+    ]
+  }
+}
