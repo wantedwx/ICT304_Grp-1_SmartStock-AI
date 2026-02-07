@@ -1,7 +1,7 @@
 # ICT304_Grp-1_SmartStock-AI
 Intelligent inventory system for automating the warehouse system
 
-Dataset: [to be updated](https://archive.ics.uci.edu/dataset/352/online+retail)
+Dataset: https://archive.ics.uci.edu/dataset/352/online+retail
 
 Google Colab: https://colab.research.google.com/drive/11FuVEWNiU9fPR_niyztRKnYVGcPy658c?usp=sharing
 
